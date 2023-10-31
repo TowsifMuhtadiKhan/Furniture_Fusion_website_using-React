@@ -77,6 +77,7 @@ export const products = [
   },
 ];
 
+// data for referencesection
 export const referenceTitle = " Gallery of Timeless Elegance";
 export const referenceSubtitle = "Immerse Yourself in the Beauty of Furnished Living Spaces";
 
