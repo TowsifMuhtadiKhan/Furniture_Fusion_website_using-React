@@ -55,13 +55,14 @@ export const services = [
   },
 ];
 
+// data for productsection
 export const productsTitle = "Best Selling Products";
 export const productsBtnText = "See Colection";
 
 export const products = [
   {
     title: "Classic Armchair (Red)",
-    price: "$25,000 BDT",
+    price: "25,000 BDT",
     img: productOneIcon,
   },
   {
