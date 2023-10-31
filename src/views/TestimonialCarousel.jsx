@@ -20,7 +20,7 @@ const TestimonialCarousel = () => {
   };
 
   return (
-   <div className="max-w-6xl mx-auto pb-10 mt-0 ">
+   <div className="max-w-6xl mx-auto pb-10 mb-5 ">
     <div className="max-w-6xl mx-auto p-2 mt-0"> 
       <div >
       <h3 className="text-3xl  md:text-4xl lg:text-5xl  mb-2 md:mb-4 lg:mb-6 font-medium text-fontBlack text-center">Customer Review</h3>
