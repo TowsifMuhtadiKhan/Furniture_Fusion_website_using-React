@@ -147,8 +147,6 @@ export const ServiceData = [
 ];
 
 // data for estimonial section
-
-
 export const testimonials = [
   {
     id: 1,
@@ -182,7 +180,7 @@ export const testimonials = [
   }
 ];
 
-
+// data for footer section
 export const newsletter = "Newsletter";
 
 export const footerLinksColumnOne = [
@@ -190,10 +188,7 @@ export const footerLinksColumnOne = [
     title: "Support",
     links: ["About Us", "Careers", "Blog"],
   },
-  {
-    title: "Useful Links",
-    links: ["Payment & Tax", "Terms of service", "Privacy Policy"],
-  },
+  
 ];
 
 export const footerLinksColumnTwo = [
@@ -204,8 +199,8 @@ export const footerLinksColumnTwo = [
   {
     title: "Address",
     links: [
-      "JL. Setiabudhi No. 193 Sukasari, Bandung West Java, Indonesia",
-      "hallo@daunku.com",
+      "SRR Tower , House no. 50, Block C, Rd No-12, Banani, Dhaka-1213, Bangladesh",
+      "contact@farniturefusion.com",
     ],
   },
 ];

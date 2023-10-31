@@ -6,7 +6,7 @@ import Reference from "./views/Reference";
 import Care from "./views/Care";
 import ActiveSlider from "./views/ActiveSlider";
 import TestimonialCarousel from "./views/TestimonialCarousel";
-// import Footer from "./views/Footer";
+import Footer from "./views/Footer";
 
 function App() {
   return (
@@ -18,8 +18,7 @@ function App() {
       <Care />
       <ActiveSlider/>
       <TestimonialCarousel/>
-      {/*<Footer /> */}
-      
+      <Footer />
     </>
   );
 }
