@@ -7,15 +7,15 @@ import FadeIn from "../components/FadeIn";
 const Care = () => {
   return (
     // Main container for the care section with specified styles
-    <div id="care" className="px-10 max-w-[1490px] mx-auto mb-[160px]">
+    <div id="care" className="px-10 max-w-[1490px] mx-auto mb-[80px] md:mb-[120px] lg:mb-[160px]">
        {/* Fading in the care section  */}
       <FadeIn delay={0.2} direction="down">
-        <h1 className="text-5xl lg:text-[64px] font-medium text-fontBlack mb-6 text-center">
+        <h1 className="text-3xl  md:text-4xl lg:text-5xl  mb-5 md:mb-10 lg:mb-10 font-medium text-fontBlack  text-center">
           {careTitle}
         </h1>
       </FadeIn>
       <FadeIn delay={0.4} direction="down">
-        <h5 className="text-[#4F4F4F] text-lg xs:text-xl mb-12">
+        <h5 className="text-[#4F4F4F] text-xl text-center md:text-2xl lg:text-2xl  mb-10 md:mb-20 lg:mb-20">
           {careSubtitle}
         </h5>
       </FadeIn>
@@ -32,7 +32,7 @@ const Care = () => {
                   className="h-[88px] w-[68px]"
                 />
                 <div>
-                  <h3 className="text-center xs:text-start mb-2 text-2xl lg:text-[28px] text-fontBlack font-medium">
+                  <h3 className="text-center xs:text-start mb-2 text-2xl lg:text-[25px] text-fontBlack font-medium">
                     {item.title}
                   </h3>
                   <h6 className="text-center xs:text-start text-base lg:text-lg text-fontGray font-medium">

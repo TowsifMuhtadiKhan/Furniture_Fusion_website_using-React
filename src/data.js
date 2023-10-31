@@ -61,17 +61,17 @@ export const productsBtnText = "See Colection";
 
 export const products = [
   {
-    title: "Classic Armchair (Red)",
+    title: "Armchair (Red)",
     price: "25,000 BDT",
     img: productOneIcon,
   },
   {
-    title: "Classic Armchair (Black)",
+    title: "Armchair (Black)",
     price: "25,500 BDT",
     img: productTwoIcon,
   },
   {
-    title: "Classic Armchair (Yellow)",
+    title: "Armchair (Yellow)",
     price: "25,000 BDT",
     img: productThreeIcon,
   },
@@ -104,12 +104,7 @@ export const careList = [
       "Place coasters under glasses and mats under hot dishes to protect surfaces from heat and moisture.",
     img: plantIcon,
   },
-  {
-    title: "Periodic Polishing and Maintenance",
-    subtitle:
-      "Polish wooden furniture periodically to maintain its luster. C",
-    img: temperatureIcon,
-  },
+ 
 ];
 
 // data for active slider

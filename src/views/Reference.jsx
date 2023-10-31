@@ -9,15 +9,15 @@ import FadeIn from "../components/FadeIn";
 const Reference = () => {
   return (
     // Main container for the reference section with specified styles
-    <div id="reference" className="mb-[160px] px-10 max-w-[1490px] mx-auto">
+    <div id="reference" className="mb-[80px] md:mb-[90px] lg:mb-[160px] px-10 max-w-[1490px] mx-auto">
        {/* Fading in the reference section*/}
       <FadeIn delay={0.2} direction="down">
-        <h1 className="text-5xl lg:text-[64px] font-medium text-fontBlack mb-6 text-center">
+        <h1 className="text-3xl  md:text-4xl lg:text-5xl  mb-2 md:mb-4 lg:mb-6 font-medium text-fontBlack text-center">
           {referenceTitle}
         </h1>
       </FadeIn>
       <FadeIn delay={0.4} direction="down">
-        <h5 className="text-[#4F4F4F] text-lg xs:text-xl mb-12 text-center">
+        <h5 className="text-[#4F4F4F] text-xl md:text-2xl lg:text-2xl mb-12 text-center">
           {referenceSubtitle}
         </h5>
       </FadeIn>

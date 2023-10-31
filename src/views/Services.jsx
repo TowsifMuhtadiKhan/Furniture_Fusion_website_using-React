@@ -6,7 +6,7 @@ import FadeIn from "../components/FadeIn";
 const Services = () => {
     // JSX code representing the services section of the website
   return(
-     <div id="services" className="mt-[160px] max-w-[1490px] mx-auto px-10 flex flex-col xs:flex-row gap-12 xs:gap-6 xs:justify-between w-full">
+     <div id="services" className="mt-[80px] md:mt-[90px] lg:mt-[160px] mb-[80px] md:mb-[90px] lg:mb-[160px] max-w-[1490px] mx-auto px-10 flex flex-col xs:flex-row gap-12 xs:gap-6 xs:justify-between w-full">
     {services.map((service, i) =>(
       // Applying fade-in animation effect using the 'FadeIn' component with a delay and direction
       <FadeIn key={i} delay={0.2} direction="down">

@@ -11,7 +11,7 @@ const Products = () => {
     // Main container with flex layout and styling classes
     <div
       id="products"
-      className="flex flex-col 2xl:flex-row gap-[128px] 2xl:gap-2 2xl:justify-between mt-[160px] 2xl:mt-[270px] mb-[160px] max-w-[1490px]
+      className="flex flex-col 2xl:flex-row gap-[128px] 2xl:gap-2 2xl:justify-between mt-[160px] 2xl:mt-[270px] mb-[80px] md:mb-[90px] lg:mb-[160px] max-w-[1490px]
         mx-auto px-10 w-full"
     >
        {/* Fading in the title and button section */}
@@ -44,15 +44,15 @@ const Products = () => {
                 alt=""
                 className="absolute -top-[120px] left-1/2 -translate-x-1/2"
               />
-              <div className="absolute bottom-0 w-full bg-white h-[260px] rounded-[50px] shadow-md px-8 py-[26px] flex flex-col justify-between">
+              <div className="absolute bottom-0 w-full bg-white h-220 rounded-[30px] shadow-md px-8 py-[26px] flex flex-col justify-between">
                 <div>
-                  <h2 className="mb-2 text-fontBlack text-3xl lg:text-[32px] font-medium">
+                  <h2 className="mb-2 text-fontBlack text-2xl  md:text-2xl lg:text-2xl font-medium">
                     {product.title}
                   </h2>
                   <img src={starsIcon} alt="" />
                 </div>
                 <div className="flex justify-between items-center">
-                  <h3 className="text-fontBlack text-2xl lg:text-3xl font-medium">
+                  <h3 className="text-fontBlack text-xl  md:text-2xl lg:text-2xl font-medium">
                     {product.price}
                   </h3>
                   <img

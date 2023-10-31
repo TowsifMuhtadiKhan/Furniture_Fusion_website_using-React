@@ -15,9 +15,9 @@ function App() {
       <Services />
       <Products />
       <Reference />
-      <Care />
-      <ActiveSlider/>
-      <TestimonialCarousel/>
+      <Care />     
+      <ActiveSlider/>  
+     <TestimonialCarousel/>
       <Footer />
     </>
   );
