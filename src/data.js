@@ -31,11 +31,12 @@ import user3Image from './assets/profileimage/user3.jpg';
 import user4Image from './assets/profileimage/user4.jpg';
 import user5Image from './assets/profileimage/user1.jpg';
 
-
+// data for herosection
 export const heroTitle = "Elevate Your Space with Elegance";
 export const heroSubtitle =
   "Discover Timeless Furniture Pieces Tailored for Your Home";
 
+// data for servicessection
 export const services = [
   {
     title: "Free Shipping",
