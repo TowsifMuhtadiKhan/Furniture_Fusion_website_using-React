@@ -8,7 +8,7 @@ import {
 const Footer = () => {
   return (
     <div className="bg-[linear-gradient(133deg,_#566270_0%,_#283444_100%)]">
-      <div className="max-w-[1490px] mx-auto px-10 py-[120px]">
+      <div className="max-w-[1490px] mx-auto px-10 pb-[20px] pt-[40px]">
         <div className="flex flex-col items-center xl:items-start xl:flex-row xl:justify-between gap-12">
           <div className="w-full xl:w-auto flex flex-col items-center xl:items-start">
             <h2 className="text-white text-center xl:text-start font-medium text-3xl lg:text-[32px]">
@@ -86,8 +86,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-[1px] bg-white my-12" />
-        <h6 className="text-white text-center text-base lg:text-lg">
+        <div className="w-full h-[1px] bg-white my-5" />
+        <h6 className="text-white text-center text-base lg:text-lg mb-2">
           &copy; Farniture Fusion - All rights reserved
         </h6>
       </div>
