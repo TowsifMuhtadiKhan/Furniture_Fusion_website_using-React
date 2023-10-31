@@ -4,12 +4,13 @@ import Services from "./views/Services";
 import Products from "./views/Products";
 import Reference from "./views/Reference";
 import Care from "./views/Care";
+import ActiveSlider from "./views/ActiveSlider";
 // import Footer from "./views/Footer";
 
 
 
 
-// import ActiveSlider from "./views/ActiveSlider";
+
 // import TestimonialCarousel from "./views/TestimonialCarousel";
 
 function App() {
@@ -20,8 +21,8 @@ function App() {
       <Products />
       <Reference />
       <Care />
-      {/*<ActiveSlider/>
-      <TestimonialCarousel/>
+      <ActiveSlider/>
+      {/*<TestimonialCarousel/>
       <Footer /> */}
       
     </>

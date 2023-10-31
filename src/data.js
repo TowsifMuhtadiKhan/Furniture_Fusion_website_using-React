@@ -112,34 +112,7 @@ export const careList = [
   },
 ];
 
-export const newsletter = "Newsletter";
-
-export const footerLinksColumnOne = [
-  {
-    title: "Support",
-    links: ["About Us", "Careers", "Blog"],
-  },
-  {
-    title: "Useful Links",
-    links: ["Payment & Tax", "Terms of service", "Privacy Policy"],
-  },
-];
-
-export const footerLinksColumnTwo = [
-  {
-    title: "Our Menu",
-    links: ["Best Product", "Categories"],
-  },
-  {
-    title: "Address",
-    links: [
-      "JL. Setiabudhi No. 193 Sukasari, Bandung West Java, Indonesia",
-      "hallo@daunku.com",
-    ],
-  },
-];
-// data for slider
-
+// data for active slider
 export const ServiceData = [
   {
     icon: RxCrop,
@@ -171,13 +144,37 @@ export const ServiceData = [
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     backgroundImage: Tree5,
   },
-  // {
-  //   icon: RxRocket,
-  //   title: "Production",
-  //   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  //   backgroundImage: Tree6,
-  // },
 ];
+
+export const newsletter = "Newsletter";
+
+export const footerLinksColumnOne = [
+  {
+    title: "Support",
+    links: ["About Us", "Careers", "Blog"],
+  },
+  {
+    title: "Useful Links",
+    links: ["Payment & Tax", "Terms of service", "Privacy Policy"],
+  },
+];
+
+export const footerLinksColumnTwo = [
+  {
+    title: "Our Menu",
+    links: ["Best Product", "Categories"],
+  },
+  {
+    title: "Address",
+    links: [
+      "JL. Setiabudhi No. 193 Sukasari, Bandung West Java, Indonesia",
+      "hallo@daunku.com",
+    ],
+  },
+];
+
+
+
 
 export const testimonials = [
   {
