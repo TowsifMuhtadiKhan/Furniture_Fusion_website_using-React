@@ -13,7 +13,7 @@ const ActiveSlider = () => {
     // Main container for the active slider section
     <div className="mb-10 " >
       <div>
-          <h2  className="text-3xl  md:text-4xl lg:text-5xl px-8 md:px-15 lg:px-20 font-medium text-fontBlack mb-6 text-center">Furniture in Room Inspirations</h2>
+          <h2  className="text-3xl  md:text-4xl lg:text-5xl px-8 md:px-15 lg:px-20 font-bold text-fontBlack mb-6 text-center">Furniture in Room Inspirations</h2>
           <h6 className="text-xl md:text-2xl lg:text-2xl px-8 md:px-15 lg:px-20 mb-10 md:mb-10 lg:mb-10 text-fontBlack  text-center">Imagining Possibilities, Transforming Spaces: Discover Furniture that Fits Your Life</h6>
       </div>
        {/* Container for the Swiper component */}

@@ -10,7 +10,7 @@ const Care = () => {
     <div id="care" className="px-10 max-w-[1490px] mx-auto mb-[80px] md:mb-[120px] lg:mb-[160px]">
        {/* Fading in the care section  */}
       <FadeIn delay={0.2} direction="down">
-        <h1 className="text-3xl  md:text-4xl lg:text-5xl  mb-5 md:mb-10 lg:mb-10 font-medium text-fontBlack  text-center">
+        <h1 className="text-3xl  md:text-4xl lg:text-5xl  mb-5 md:mb-10 lg:mb-10 font-bold text-fontBlack  text-center">
           {careTitle}
         </h1>
       </FadeIn>

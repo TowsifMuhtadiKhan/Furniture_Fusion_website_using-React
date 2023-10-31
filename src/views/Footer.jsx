@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="max-w-[1490px] mx-auto px-10 pb-[20px] pt-[40px]">
         <div className="flex flex-col items-center xl:items-start xl:flex-row xl:justify-between gap-12">
           <div className="w-full xl:w-auto flex flex-col items-center xl:items-start">
-            <h2 className="text-white text-center xl:text-start font-medium text-3xl lg:text-[32px]">
+            <h2 className="text-white text-center xl:text-start font-bold text-3xl lg:text-[32px]">
               {newsletter}
             </h2>
             <div className="relative w-full xs:w-[380px] xl:w-[320px] mt-11">
