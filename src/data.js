@@ -81,6 +81,7 @@ export const products = [
 export const referenceTitle = " Gallery of Timeless Elegance";
 export const referenceSubtitle = "Immerse Yourself in the Beauty of Furnished Living Spaces";
 
+// data for caresection
 export const careTitle = "Preserve the Beauty, Embrace the Longevity";
 export const careSubtitle = "Expert Guidance to Nurture Your Furniture and Enrich Your Living Spaces";
 
