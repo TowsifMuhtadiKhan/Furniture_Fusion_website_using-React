@@ -5,13 +5,8 @@ import Products from "./views/Products";
 import Reference from "./views/Reference";
 import Care from "./views/Care";
 import ActiveSlider from "./views/ActiveSlider";
+import TestimonialCarousel from "./views/TestimonialCarousel";
 // import Footer from "./views/Footer";
-
-
-
-
-
-// import TestimonialCarousel from "./views/TestimonialCarousel";
 
 function App() {
   return (
@@ -22,8 +17,8 @@ function App() {
       <Reference />
       <Care />
       <ActiveSlider/>
-      {/*<TestimonialCarousel/>
-      <Footer /> */}
+      <TestimonialCarousel/>
+      {/*<Footer /> */}
       
     </>
   );
